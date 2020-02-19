@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "ics-api-cookie-extension",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": {
+      "16": "icon.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["cookies", "hogehoge.com", "tabs"]
+}
